@@ -1,0 +1,32 @@
+body {
+    background-image: url("/images/night-elf-minimalist-art-world-of-warcraft-wow-behang-2048x1536_26\ \(1\).jpg");
+    background-size: cover;
+}
+
+.logo img {
+    max-width: 500px;
+}
+
+.carousel-item {
+    max-height: 350px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    max-height: 550px;
+}
+
+
+.card {
+    min-height: 500px;
+}
+
+.card p {
+    min-height: 250px;
+}
+
+@media screen and (max-width: 992px) {
+    .card p {
+        min-height: 150px;
+    }
+}
